@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+    <link rel="stylesheet" href="css/forgot-pass-style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form name="form1" action="#" method="post" onsubmit="return Validate()">
+            <h2 class="header center">Forgot Password</h2>
+            <input class="input-field center" autocomplete="off" type="text" id="uname" name="inputemail"
+                placeholder="Email"><br>
+            <div class="alert center" id="email-alert" role="alert">
+                <!-- this is demo alert...! -->
+            </div>
+
+            <input type="submit" class="center" id="submit" value="Send link"> <br>
+            <div class="Login">
+                <a href="login.html">Login</a>
+            </div>
+            <div class="Register">
+                <a href="registration.html" >Create Account</a>
+            </div>
+        </form>
+    </div>
+
+    <script src="js/forgot-pass-script.js"></script>
+</body>
+
+</html>
